@@ -35,7 +35,8 @@ In this task, Holly wants to create a data lost prevention policy for the flows 
    
    Before you select the SharePoint connector, note how nothing appears above the **Assign connectors** heading at the top of the page. Now, in the list of filtered **Non-business** connectors, select the **SharePoint** connector. Once you selected the SharePoint connector, notice how the **Move to Business** option now appears at the top of the page.
 
-8. Since Adatum wants the connector for this policy to share data with connectors in other groups, you must move the SharePoint connector from the **Non-business** group to the **Business** group. 
+8. On the Customer connectors (preview) page, select **Next**.
+9. Since Adatum wants the connector for this policy to share data with connectors in other groups, you must move the SharePoint connector from the **Non-business** group to the **Business** group. 
 
       To do so, select the **Move to Business** option at the top of the page. Once the connector has been moved, note how the **Business** tab now displays **(1)** next to it (indicating there is now one Business connector), and how the number of **Non-business** connectors is now reduced by 1. Select the **Business** tab to see the SharePoint connector. Select **Next**.
 
@@ -100,7 +101,8 @@ In your role as Holly, you will update this DLP policy to include Outlook as an 
 
       Once the connector has moved, note how the **Business** tab now displays **(2)** next to it (indicating there are now two Business connectors), and how the number of **Non-business** connectors is once again reduced by 1. Select the **Business** tab to see both the SharePoint and Office 365 Outlook connectors that you have assigned to the Business group. Select **Next**.
 
-7. On the **Scope** page, you previously selected the **Add all environments** option, so this time simply select **Next**.
+7. On the **Custom connectors (preview)** page, select **Next**.
+8. On the **Scope** page, you previously selected the **Add all environments** option, so this time simply select **Next**.
 
 8. On the **Review** page, review all the settings that you previously assigned to the new policy. If any setting needs to be changed, select the **Edit** option for that setting. If all settings are correct, select the **Update policy** button. 
 
